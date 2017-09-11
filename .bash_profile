@@ -14,12 +14,19 @@ if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
 
-export PATH="$HOME/.node/bin:$PATH"
+#export PATH="$HOME/.node/bin:$PATH"
 
 alias gc='git checkout'
-
 alias gs='git status'
-
 alias gd='git diff'
-
 alias gp='git pull'
+alias sourcetree='open -a SourceTree'
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
+export PATH="$HOME/anaconda/bin:$PATH"
