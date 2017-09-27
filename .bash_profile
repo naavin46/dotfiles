@@ -29,4 +29,4 @@ export NVM_DIR="$HOME/.nvm"
 
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
-export PATH="$HOME/anaconda/bin:$PATH"
+export PATH="$PATH:$HOME/anaconda/bin"
