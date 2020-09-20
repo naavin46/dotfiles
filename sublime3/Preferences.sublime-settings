@@ -1,0 +1,29 @@
+{
+	"color_scheme": "Packages/User/Legacy/Oceanic - Eighties.tmTheme",
+	"color_scheme.dark": "Packages/User/Legacy/Oceanic - Eighties.tmTheme",
+	"color_scheme.light": "Packages/User/Legacy/LAZY.tmTheme",
+	"detect_indentation": true,
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		"public/dist",
+		"public/lib",
+		".git"
+	],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		195
+	],
+	"show_full_path": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
