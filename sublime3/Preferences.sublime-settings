@@ -1,13 +1,19 @@
 {
-	"color_scheme": "Packages/User/Legacy/Oceanic - Eighties.tmTheme",
+	"color_scheme": "Packages/User/Legacy/LAZY.tmTheme",
 	"color_scheme.dark": "Packages/User/Legacy/Oceanic - Eighties.tmTheme",
 	"color_scheme.light": "Packages/User/Legacy/LAZY.tmTheme",
+	"dart_sdk_path": "/usr/local/Caskroom/flutter/2.0.2/flutter/bin/cache/dart-sdk",
 	"detect_indentation": true,
 	"folder_exclude_patterns":
 	[
 		"node_modules",
 		"public/dist",
 		"public/lib",
+		"ios/Pods",
+		"ios/build",
+		"android/build",
+		"android/app/build",
+		"android/.gradle/",
 		".git"
 	],
 	"font_size": 11,
@@ -17,7 +23,7 @@
 	],
 	"rulers":
 	[
-		195
+		80
 	],
 	"show_full_path": true,
 	"tab_size": 2,
