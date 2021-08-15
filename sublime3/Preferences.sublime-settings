@@ -1,7 +1,7 @@
 {
-	"color_scheme": "Packages/User/Legacy/LAZY.tmTheme",
-	"color_scheme.dark": "Packages/User/Legacy/Oceanic - Eighties.tmTheme",
-	"color_scheme.light": "Packages/User/Legacy/LAZY.tmTheme",
+	"color_scheme": "auto",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
+	"dark_color_scheme": "Mariana.sublime-color-scheme",
 	"dart_sdk_path": "/usr/local/Caskroom/flutter/2.0.2/flutter/bin/cache/dart-sdk",
 	"detect_indentation": true,
 	"folder_exclude_patterns":

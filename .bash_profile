@@ -37,12 +37,13 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 #export CFLAGS="-I$(brew --prefix openssl)/include"
 #export LDFLAGS="-L$(brew --prefix openssl)/lib"
 
-#git log --author='<naavin_email>@gmail.com'
+#git log --author='naavin_email'
 #git log --author='Naavin Mahendran'
 
 #sudo chown -R $(whoami) $(brew --prefix)/*
 #adb logcat *:E
 #adb install android/app/build/outputs/apk/release/app-release.apk
+#code --list-extensions > extensions.list
 #keytool -genkey -v -keystore android-key.keystore -alias android -keyalg RSA -keysize 2048 -validity 10000
 #keytool -exportcert -list -v -alias android -keystore android-key.keystore
 #keytool -importkeystore -srckeystore android-key.keystore -destkeystore android-key.keystore -deststoretype pkcs12
@@ -50,24 +51,24 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 #ngrok http 8080 -host-header="localhost:8080" -region ap
 #mongodump --host="localhost:27017" -o dump
 #mongorestore dump/
-#watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm $TMPDIR/metro-bundler-cache-*
-#react-native init MyApp --version 0.61.0
-#react-native run-ios --simulator="iPhone 11 Pro Max"
-#xcrun simctl list
+#react-native init MyApp --version 0.64.0
+#react-native run-ios --simulator="iPhone 12 Pro Max"
 #sudo launchctl stop com.apple.usbd && sudo launchctl start com.apple.usbd
+#xcrun simctl list
 
 alias android-emulator='emulator -avd Nexus_6P_API_27'
+alias cwp="cd ~/Codes/"
 alias gc='git checkout'
 alias gs='git status'
 alias gd='git diff'
 alias gp='git pull'
 alias gp-all='for d in */; { echo "$d"; cd $d; git pull; cd ..; }'
+alias gp-code='cd Codes && for d in */; { echo "$d"; cd $d; git pull; cd ..; }'
 alias gsgb='grunt sass && grunt build'
-alias sourcetree='open -a SourceTree'
 alias ip="printf 'ip ' && curl whatismyip.akamai.com && ifconfig en0 inet | grep 'inet '"
 alias python-server="python -m SimpleHTTPServer 8000"
-alias cwp="cd ~/Codes/"
 alias rn-clear="watchman watch-del-all && rm -rfv $TMPDIR/react-* && rm -rfv $TMPDIR/react-native-packager-cache-* && rm -rfv $TMPDIR/metro-bundler-cache-*"
 alias sd='printf "\e]1337;SetProfile=Dark\007"'
 alias sl='printf "\e]1337;SetProfile=Default\007"'
-alias flushdns="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache"
+alias sourcetree='open -a SourceTree'
+alias flushdns="sudo killall -HUP mDNSResponder; sudo killall mDNSResponderHelper; sudo dscacheutil -flushcache"
